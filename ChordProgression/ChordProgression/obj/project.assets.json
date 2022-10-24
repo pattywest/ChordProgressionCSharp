@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patwe\\source\\repos\\ChordProgression\\ChordProgression\\ChordProgression.csproj",
+      "projectUniqueName": "C:\\Users\\patwe\\source\\repos\\ChordProgressionCSharp\\ChordProgression\\ChordProgression\\ChordProgression.csproj",
       "projectName": "ChordProgression",
-      "projectPath": "C:\\Users\\patwe\\source\\repos\\ChordProgression\\ChordProgression\\ChordProgression.csproj",
+      "projectPath": "C:\\Users\\patwe\\source\\repos\\ChordProgressionCSharp\\ChordProgression\\ChordProgression\\ChordProgression.csproj",
       "packagesPath": "C:\\Users\\patwe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patwe\\source\\repos\\ChordProgression\\ChordProgression\\obj\\",
+      "outputPath": "C:\\Users\\patwe\\source\\repos\\ChordProgressionCSharp\\ChordProgression\\ChordProgression\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\patwe\\AppData\\Roaming\\NuGet\\NuGet.Config",

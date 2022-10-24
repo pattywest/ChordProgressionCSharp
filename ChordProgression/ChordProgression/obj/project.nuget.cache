@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kJr+ziDoMQt0vL0xbiI/bawWxaSSuObQaoYaioOjy6JcnAClZjn7Au+8/q41AFVTahUv1l1yS2a8rXxDTccYmQ==",
+  "dgSpecHash": "oe2emgochhya+Mg3185rD/5+nJOzhuRK9u0f/+mxDKoWsVvVdEKaffo+qkfuGt/DhNuD60KHBuRECAAbwRBOVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patwe\\source\\repos\\ChordProgression\\ChordProgression\\ChordProgression.csproj",
+  "projectFilePath": "C:\\Users\\patwe\\source\\repos\\ChordProgressionCSharp\\ChordProgression\\ChordProgression\\ChordProgression.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

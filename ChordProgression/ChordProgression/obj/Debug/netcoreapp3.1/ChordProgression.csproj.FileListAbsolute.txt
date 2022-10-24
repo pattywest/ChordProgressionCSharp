@@ -12,3 +12,17 @@ C:\Users\patwe\source\repos\ChordProgression\ChordProgression\obj\Debug\netcorea
 C:\Users\patwe\source\repos\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.dll
 C:\Users\patwe\source\repos\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.pdb
 C:\Users\patwe\source\repos\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.genruntimeconfig.cache
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Debug\netcoreapp3.1\ChordProgression.exe
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Debug\netcoreapp3.1\ChordProgression.deps.json
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Debug\netcoreapp3.1\ChordProgression.runtimeconfig.json
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Debug\netcoreapp3.1\ChordProgression.runtimeconfig.dev.json
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Debug\netcoreapp3.1\ChordProgression.dll
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Debug\netcoreapp3.1\ChordProgression.pdb
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.csproj.AssemblyReference.cache
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.AssemblyInfoInputs.cache
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.AssemblyInfo.cs
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.csproj.CoreCompileInputs.cache
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.dll
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.pdb
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\obj\Debug\netcoreapp3.1\ChordProgression.genruntimeconfig.cache
