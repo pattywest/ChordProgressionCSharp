@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace ChordProgression
 {
@@ -54,17 +55,34 @@ namespace ChordProgression
             Chords VMaj = new Chords("V");
             allMajorChordsStr[5] = "vi";
             Chords viMaj = new Chords("vi");
-            allMajorChordsStr[6] = "vii°";
+            allMajorChordsStr[6] = "viid";
             Chords viiMaj = new Chords("vii°");
+
+            Dictionary<string, Chords> chordMapMaj = new Dictionary<string, Chords>();
+
 
 
             IMaj.setChordsCanGoTo(new Chords[] { IMaj, iiMaj, iiiMaj, IVMaj, VMaj, viMaj, viiMaj });
-            iiMaj.setChordsCanGoTo(new Chords[] { IMaj, viiMaj, VMaj });
+            iiMaj.setChordsCanGoTo(new Chords[] { viiMaj, VMaj });
+            iiiMaj.setChordsCanGoTo(new Chords[] { iiMaj, IVMaj, viMaj});
+            IVMaj.setChordsCanGoTo(new Chords[] { IMaj, iiMaj, VMaj, viiMaj });
+            VMaj.setChordsCanGoTo(new Chords[] { IMaj, viMaj });
+            viMaj.setChordsCanGoTo(new Chords[] { IMaj, iiMaj, IVMaj, VMaj, viiMaj });
+            viiMaj.setChordsCanGoTo(new Chords[] { IMaj, VMaj, viMaj});
+
+            chordMapMaj.Add("I", IMaj);
+            chordMapMaj.Add("ii", iiMaj);
+            chordMapMaj.Add("iii", iiiMaj);
+            chordMapMaj.Add("IV", IVMaj);
+            chordMapMaj.Add("V", VMaj);
+            chordMapMaj.Add("vi", viMaj);
+            chordMapMaj.Add("vii", viiMaj);
+
 
 
             allMinorChordsStr[0] = "i";
             Chords iMin = new Chords("i");
-            allMinorChordsStr[1] = "ii°";
+            allMinorChordsStr[1] = "iid";
             Chords iiMin = new Chords("ii°");
             allMinorChordsStr[2] = "III";
             Chords IIIMin = new Chords("III");
@@ -74,11 +92,25 @@ namespace ChordProgression
             Chords VMin = new Chords("V");
             allMinorChordsStr[5] = "VI";
             Chords VIMin = new Chords("VI");
-            allMinorChordsStr[6] = "vii°";
+            allMinorChordsStr[6] = "viid";
             Chords viiMin = new Chords("vii°");
+            Dictionary<string, Chords> chordMapMin = new Dictionary<string, Chords>();
 
             iMin.setChordsCanGoTo(new Chords[] { iMin, iiMin, IIIMin, ivMin, VMin, VIMin, viiMin });
+            iiMin.setChordsCanGoTo(new Chords[] { viiMin, VMin });
+            IIIMin.setChordsCanGoTo(new Chords[] { iiMin, ivMin, VIMin });
+            ivMin.setChordsCanGoTo(new Chords[] { iMin, iiMin, VMin, viiMin });
+            VMin.setChordsCanGoTo(new Chords[] { iMin, VIMin });
+            VIMin.setChordsCanGoTo(new Chords[] { iMin, iiMin, ivMin, VMin, viiMin });
+            viiMin.setChordsCanGoTo(new Chords[] { iMin, VMin, VIMin });
 
+            chordMapMin.Add("i", iMin);
+            chordMapMin.Add("iid", iiMin);
+            chordMapMin.Add("III", IIIMin);
+            chordMapMin.Add("iv", ivMin);
+            chordMapMin.Add("V", VMin);
+            chordMapMin.Add("VI", VIMin);
+            chordMapMin.Add("viid", viiMin);
 
             int numOfChords = 0;
             Boolean isMajor = true;
@@ -86,6 +118,7 @@ namespace ChordProgression
             Console.WriteLine("Welcome to the random (but correct) Triad Chord Progression in Roman Numerals!");
             Console.WriteLine("How many Chords do you want?");
             numOfChords = Convert.ToInt32(Console.ReadLine());
+            String[] chordProg = new String[numOfChords];
             Boolean continueWhile = true;
             while (continueWhile)
             {
@@ -127,6 +160,16 @@ namespace ChordProgression
                         selectedStarting = true;
                     }
                 }
+                Chords firstChord = chordMapMaj[startingChord];
+                chordProg[0] = firstChord.toString();
+                Console.Write(chordProg[0] + ", ");
+                Console.Write(chordProg[0] + ", ");
+                for (int i = 1; i < numOfChords; i++)
+                {
+                    
+                    Console.Write(chordProg[i] + ", ");
+                }
+
                 
             }
             else
