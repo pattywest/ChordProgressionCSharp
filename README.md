@@ -20,6 +20,10 @@ Future Additions:
 
 To Run:
 
+Download the source zip, either from the green code button in the upper right hand corner, or through the lastest release.
+
+Extract the zip file to your computer.
+
 Go to ```/ChordProgression/ChordProgression/bin/Debug/netcoreapp3.1/``` and run the ChordProgression.exe file.
 
 
