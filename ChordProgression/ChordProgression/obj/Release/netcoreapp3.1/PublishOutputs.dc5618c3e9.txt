@@ -1,0 +1,5 @@
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Release\netcoreapp3.1\publish\ChordProgression.exe
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Release\netcoreapp3.1\publish\ChordProgression.dll
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Release\netcoreapp3.1\publish\ChordProgression.deps.json
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Release\netcoreapp3.1\publish\ChordProgression.runtimeconfig.json
+C:\Users\patwe\source\repos\ChordProgressionCSharp\ChordProgression\ChordProgression\bin\Release\netcoreapp3.1\publish\ChordProgression.pdb

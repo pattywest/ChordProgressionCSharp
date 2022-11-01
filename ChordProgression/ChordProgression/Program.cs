@@ -9,10 +9,25 @@ namespace ChordProgression
     {
         private String nameOfChord;
         private Chords[] chordsCanGoTo;
+        private String inversion;
 
         public Chords(String name)
         {
+            var rand = new Random();
             nameOfChord = name;
+            int inv = rand.Next(3);
+            if(inv == 1)
+            {
+                inversion = "6";
+            }
+            else if(inv == 2)
+            {
+                inversion = "6/4";
+            }
+            else
+            {
+                inversion = "";
+            }
         }
 
         public void setChordsCanGoTo(Chords[] canGoTo)
@@ -33,7 +48,7 @@ namespace ChordProgression
 
         public String toString()
         {
-            return nameOfChord;
+            return nameOfChord + inversion;
         }
 
     }
