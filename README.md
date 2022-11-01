@@ -14,7 +14,8 @@ Future Additions:
 <s>
 - Basic functionality, randomly produce a chord progression based on a starting chord. </s>
 - Add the user putting in an ending chord, and making sure all the rules still apply.
-- Adding inversions, which would also be random.
+<s>
+- Adding inversions, which would also be random. </s>
 - Add an array to try and weight some chords over others, i.e. a V chord would have a higher shot of going to a I or IV over the others.
 
 
