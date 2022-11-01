@@ -18,12 +18,5 @@ Future Additions:
 - Add an array to try and weight some chords over others, i.e. a V chord would have a higher shot of going to a I or IV over the others.
 
 
-To Run:
-
-1. Download the source zip, either from the green code button in the upper right hand corner, or through the lastest release.
-
-2. Extract the zip file to your computer.
-
-3. Go to ```/ChordProgression/ChordProgression/bin/Debug/netcoreapp3.1/``` and run the ChordProgression.exe file.
 
 
