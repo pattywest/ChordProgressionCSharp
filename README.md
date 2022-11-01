@@ -12,7 +12,7 @@ A program that allows a user to enter an amount of chords they want in a progres
 
 Future Additions:
 
-- Basic functionality, randomly produce a chord progression based on a starting chord.<b>DONE</b>
+- Basic functionality, randomly produce a chord progression based on a starting chord. <b>DONE</b>
 - Add the user putting in an ending chord, and making sure all the rules still apply.
 - Adding inversions, which would also be random. <b>DONE</b>
 
