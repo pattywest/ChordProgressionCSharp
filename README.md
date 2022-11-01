@@ -16,6 +16,7 @@ Future Additions:
 - Add the user putting in an ending chord, and making sure all the rules still apply.
 <s>
 - Adding inversions, which would also be random. </s>
+
 - Add an array to try and weight some chords over others, i.e. a V chord would have a higher shot of going to a I or IV over the others.
 
 
